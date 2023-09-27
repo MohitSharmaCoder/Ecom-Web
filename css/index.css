@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+}
+.cards_box a{
+    display: block;
+}
+.de-img img {
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+    object-fit: cover;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.section_one {
+    padding: 50px 0px;
+}
+
+.cards_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.cards_box {
+    /* width: 19%;  */
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 4px 0px 20px -6px rgba(0, 0, 0, 0.38);
+}
+
+.cards_box a img {
+    height: 200px;
+    width: 100%;
+}
+
+.cards_box h4,
+.cards_box p {
+    padding: 0;
+    margin: 0;
+}
+
+.cards_box h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cards_box p {
+    margin: 10px 0px;
+}
+
+.cards_box .reviews {
+    margin-bottom: 10px;
+}
+
+.reviews .stars {
+    color: #FFA430;
+}
+
+.product_bottom {
+    padding: 10px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .cards_container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .de-img img {
+        height: 200px;
+    }
+    .section_one {
+        padding: 15px 10px;
+    }
+    .cards_container {
+        grid-template-columns: auto auto;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+
+    .cards_box {
+        /* width: 19%;  */
+        border: 1px solid #D1D1D1;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 4px 0px 20px -6px rgba(0, 0, 0, 0.38);
+    }
+
+    .cards_box a img {
+        height: 150px;
+    }
+    .cards_box h4 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .cards_box p {
+        margin: 8px 0px;
+    }
+
+    .cards_box .reviews {
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+    .product_bottom {
+        padding: 10px;
+    }
+}
+
+
+/* footer_section */
+
+footer{
+    background-color: #333;
+    color: #fff;
+}
+.footer_section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.f_box{
+    width: 24%;
+}
+
+.f_bottom iframe{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.quick_l li a{
+    color:#fff;
+}
+
+.quick_l li a:hover{
+    color:#FFA430;
+}
+.quick_2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.quick_2 li a{
+    color:#fff;
+}
+
+.quick_2 li a:hover{
+    color:#FFA430;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .f_box{
+        width: 30%;
+    }
+    .f_box:nth-child(4){
+        margin-top: 25px;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to blue */
+@media screen and (max-width: 600px) {
+    .footer_section {
+
+    }
+    .f_phone{
+        margin-bottom: 10px;
+    }
+    .navbar-collapse{
+        padding-bottom: 10px;
+    }
+    .f_box{
+        width: 90%;
+    }
+    .f_box:nth-child(4),.f_box:nth-child(3),.f_box:nth-child(2){
+        margin-top: 15px;
+    }
+}

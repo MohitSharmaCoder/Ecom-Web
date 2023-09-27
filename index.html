@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecom-Home-page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- logo -->
+          <a class="navbar-brand logo" href="#">care<span class="text-success">center</span></a>
+          <!-- toggle btn -->
+          <button class="navbar-toggler  shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Catalogue
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#hair">Hair care</a></li>
+                  <li><a class="dropdown-item" href="#stress">Stress care</a></li>
+                  <li><a class="dropdown-item" href="#health">Health care</a></li>
+                  <li><a class="dropdown-item" href="#beard">Beard care</a></li>
+                  <li><a class="dropdown-item" href="#beauty">Beauty care</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-disabled="true">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex f_phone" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+            <a class="ms-3 text-dark" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a class="ms-3 text-white btn btn-primary" href="#">Sign up</a>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active de-img" data-bs-interval="10000">
+            <img src="https://www.emmakcreativestyling.ie/wp-content/uploads/2023/04/ShopBanner_Styling.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item de-img" data-bs-interval="2000">
+            <img src="https://t3.ftcdn.net/jpg/04/23/25/24/360_F_423252426_FdTfSBTeMUJmfOgHmBuM2YaIWqUYVYRb.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item de-img">
+            <img src="https://t3.ftcdn.net/jpg/03/76/86/96/360_F_376869652_8LX9PKea2fJ2leIKw1WG84goU6mb6Pb5.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+     <section  class="section_one container ">
+      <h1 id="hair" class="text-center mb-3  move2">Hair care</h1>
+       <div class="cards_container">
+
+          <div class="cards_box move2 shadow">
+              <a href="#">
+                <img src="./img/product1.png" alt="">
+              </a>
+              <div class="product_bottom">
+                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <p>₹ 555.00</p>
+              <div class="reviews">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </span>
+                <span class="text">18 reviews</span>
+              </div>
+              <a class="btn btn-primary" href="#">add to cart</a>
+              </div>
+          </div>
+          <div class="cards_box move2">
+            <a href="#">
+              <img src="./img/product3.png" alt="">
+            </a>
+            <div class="product_bottom">
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+            <p>₹ 555.00</p>
+            <div class="reviews">
+              <span class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </span>
+              <span class="text">18 reviews</span>
+            </div>
+            <a class="btn btn-primary" href="#">add to cart</a>
+            </div>
+        </div>
+        <div class="cards_box move2">
+          <a href="#">
+            <img src="./img/product2.png" alt="">
+          </a>
+          <div class="product_bottom">
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+          <p>₹ 555.00</p>
+          <div class="reviews">
+            <span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </span>
+            <span class="text">18 reviews</span>
+          </div>
+          <a class="btn btn-primary" href="#">add to cart</a>
+          </div>
+      </div>
+      <div class="cards_box move2">
+        <a href="#">
+          <img src="./img/product4.png" alt="">
+        </a>
+        <div class="product_bottom">
+          <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+        <p>₹ 555.00</p>
+        <div class="reviews">
+          <span class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </span>
+          <span class="text">18 reviews</span>
+        </div>
+        <a class="btn btn-primary" href="#">add to cart</a>
+        </div>
+    </div>
+
+       </div>
+     </section>
+
+     <section class="section_two container ">
+      <h1 id="stress" class="text-center mb-3  move2">Stress care</h1>
+       <div class="cards_container">
+
+          <div class="cards_box move2 shadow">
+              <a href="#">
+                <img src="./img/product5.png" alt="">
+              </a>
+              <div class="product_bottom">
+                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <p>₹ 555.00</p>
+              <div class="reviews">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </span>
+                <span class="text">18 reviews</span>
+              </div>
+              <a class="btn btn-primary" href="#">add to cart</a>
+              </div>
+          </div>
+          <div class="cards_box move2">
+            <a href="#">
+              <img src="./img/product6.png" alt="">
+            </a>
+            <div class="product_bottom">
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+            <p>₹ 555.00</p>
+            <div class="reviews">
+              <span class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </span>
+              <span class="text">18 reviews</span>
+            </div>
+            <a class="btn btn-primary" href="#">add to cart</a>
+            </div>
+        </div>
+        <div class="cards_box move2">
+          <a href="#">
+            <img src="./img/product7.png" alt="">
+          </a>
+          <div class="product_bottom">
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+          <p>₹ 555.00</p>
+          <div class="reviews">
+            <span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </span>
+            <span class="text">18 reviews</span>
+          </div>
+          <a class="btn btn-primary" href="#">add to cart</a>
+          </div>
+      </div>
+      <div class="cards_box move2">
+        <a href="#">
+          <img src="./img/product8.png" alt="">
+        </a>
+        <div class="product_bottom">
+          <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+        <p>₹ 555.00</p>
+        <div class="reviews">
+          <span class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </span>
+          <span class="text">18 reviews</span>
+        </div>
+        <a class="btn btn-primary" href="#">add to cart</a>
+        </div>
+    </div>
+
+       </div>
+     </section>
+
+
+     <section class="section_one container ">
+      <h1 id="health" class="text-center mb-3  move2">Health care</h1>
+       <div class="cards_container">
+
+          <div class="cards_box move2 shadow">
+              <a href="#">
+                <img src="./img/product9.png" alt="">
+              </a>
+              <div class="product_bottom">
+                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <p>₹ 555.00</p>
+              <div class="reviews">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </span>
+                <span class="text">18 reviews</span>
+              </div>
+              <a class="btn btn-primary" href="#">add to cart</a>
+              </div>
+          </div>
+          <div class="cards_box move2">
+            <a href="#">
+              <img src="./img/product10.png" alt="">
+            </a>
+            <div class="product_bottom">
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+            <p>₹ 555.00</p>
+            <div class="reviews">
+              <span class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </span>
+              <span class="text">18 reviews</span>
+            </div>
+            <a class="btn btn-primary" href="#">add to cart</a>
+            </div>
+        </div>
+        <div class="cards_box move2">
+          <a href="#">
+            <img src="./img/product11.png" alt="">
+          </a>
+          <div class="product_bottom">
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+          <p>₹ 555.00</p>
+          <div class="reviews">
+            <span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </span>
+            <span class="text">18 reviews</span>
+          </div>
+          <a class="btn btn-primary" href="#">add to cart</a>
+          </div>
+      </div>
+      <div class="cards_box move2">
+        <a href="#">
+          <img src="./img/product12.png" alt="">
+        </a>
+        <div class="product_bottom">
+          <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+        <p>₹ 555.00</p>
+        <div class="reviews">
+          <span class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </span>
+          <span class="text">18 reviews</span>
+        </div>
+        <a class="btn btn-primary" href="#">add to cart</a>
+        </div>
+    </div>
+
+       </div>
+     </section>
+
+     <section class="section_two container ">
+      <h1 id="beard" class="text-center mb-3  move2">Beard care</h1>
+       <div class="cards_container">
+
+          <div class="cards_box move2 shadow">
+              <a href="#">
+                <img src="./img/product13.png" alt="">
+              </a>
+              <div class="product_bottom">
+                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <p>₹ 555.00</p>
+              <div class="reviews">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </span>
+                <span class="text">18 reviews</span>
+              </div>
+              <a class="btn btn-primary" href="#">add to cart</a>
+              </div>
+          </div>
+          <div class="cards_box move2">
+            <a href="#">
+              <img src="./img/product14.png" alt="">
+            </a>
+            <div class="product_bottom">
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+            <p>₹ 555.00</p>
+            <div class="reviews">
+              <span class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </span>
+              <span class="text">18 reviews</span>
+            </div>
+            <a class="btn btn-primary" href="#">add to cart</a>
+            </div>
+        </div>
+        <div class="cards_box move2">
+          <a href="#">
+            <img src="./img/product15.png" alt="">
+          </a>
+          <div class="product_bottom">
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+          <p>₹ 555.00</p>
+          <div class="reviews">
+            <span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </span>
+            <span class="text">18 reviews</span>
+          </div>
+          <a class="btn btn-primary" href="#">add to cart</a>
+          </div>
+      </div>
+      <div class="cards_box move2">
+        <a href="#">
+          <img src="./img/product16.png" alt="">
+        </a>
+        <div class="product_bottom">
+          <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+        <p>₹ 555.00</p>
+        <div class="reviews">
+          <span class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </span>
+          <span class="text">18 reviews</span>
+        </div>
+        <a class="btn btn-primary" href="#">add to cart</a>
+        </div>
+    </div>
+
+       </div>
+     </section>
+
+
+     <section class="section_one container ">
+      <h1 id="beauty" class="text-center mb-3  move2">Beauty care</h1>
+       <div class="cards_container">
+
+          <div class="cards_box move2 shadow">
+              <a href="#">
+                <img src="./img/product17.png" alt="">
+              </a>
+              <div class="product_bottom">
+                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <p>₹ 555.00</p>
+              <div class="reviews">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </span>
+                <span class="text">18 reviews</span>
+              </div>
+              <a class="btn btn-primary" href="#">add to cart</a>
+              </div>
+          </div>
+          <div class="cards_box move2">
+            <a href="#">
+              <img src="./img/product18.png" alt="">
+            </a>
+            <div class="product_bottom">
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+            <p>₹ 555.00</p>
+            <div class="reviews">
+              <span class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </span>
+              <span class="text">18 reviews</span>
+            </div>
+            <a class="btn btn-primary" href="#">add to cart</a>
+            </div>
+        </div>
+        <div class="cards_box move2">
+          <a href="#">
+            <img src="./img/product19.png" alt="">
+          </a>
+          <div class="product_bottom">
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+          <p>₹ 555.00</p>
+          <div class="reviews">
+            <span class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </span>
+            <span class="text">18 reviews</span>
+          </div>
+          <a class="btn btn-primary" href="#">add to cart</a>
+          </div>
+      </div>
+      <div class="cards_box move2">
+        <a href="#">
+          <img src="./img/product20.png" alt="">
+        </a>
+        <div class="product_bottom">
+          <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+        <p>₹ 555.00</p>
+        <div class="reviews">
+          <span class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </span>
+          <span class="text">18 reviews</span>
+        </div>
+        <a class="btn btn-primary" href="#">add to cart</a>
+        </div>
+    </div>
+
+       </div>
+     </section>
+
+
+     <footer>
+        <div class="footer_section container section_one">
+
+            <div class="f_box">
+                <div class="f_top mb-3"><h4>Contact Form</h4></div>
+                <div class="f_bottom">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </div>
+            </div>
+            <div class="f_box">
+              <div class="f_top mb-3"><h4>Our Location</h4></div>
+              <div class="f_bottom">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.942329949487!2d77.11829637550075!3d28.63149047566522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1cad3858d129%3A0x755842d703969900!2sBrandhype!5e0!3m2!1sen!2sin!4v1695796740908!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+          <div class="f_box">
+            <div class="f_top mb-3"><h4>Quick Links</h4></div>
+            <div class="f_bottom">
+              <ul class="list-unstyled quick_l">
+                <li><a class="text-decoration-none " href="#">Home</a></li>
+                <li><a class="text-decoration-none " href="#">Contact Us</a></li>
+                <li><a class="text-decoration-none " href="#">Blog</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="f_box">
+          <div class="f_top mb-3"><h4>Sicial Media</h4></div>
+          <div class="f_bottom">
+            <!-- <i class="fa-brands fa-instagram"></i> -->
+            <ul class="list-unstyled quick_2">
+              <li><a class="text-decoration-none " href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a class="text-decoration-none mx-2" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a class="text-decoration-none " href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+      </div>
+
+        </div>
+     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    <script src="./js/index.js"></script>
+    <script>
+      ScrollReveal({
+          reset: true,
+          distance: '60px',
+          duration: 1500,
+          delay: 0
+      })
+      ScrollReveal().reveal('.move1', { delay: 0, origin: 'left', interval: 100  });
+      ScrollReveal().reveal('.move2', { delay: 0, origin: 'bottom', interval: 50 });
+      ScrollReveal().reveal('.move02', { delay: 0, origin: 'bottom', interval: 50 });
+      ScrollReveal().reveal('.move3', { delay: 0, origin: 'right' });
+      
+// ScrollReveal().reveal('.tagline1', { delay:0,origin:'bottom', interval:100});
+// ScrollReveal().reveal('.tagline2', { delay:0,origin:'bottom' });
+  </script>
+</body>
+</html>
